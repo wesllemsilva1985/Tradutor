@@ -1,8 +1,10 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
-VisualStudioVersion = 16.0.30709.132
+VisualStudioVersion = 16.0.30717.126
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tradutor Ws - V3.1", "Tradutor Ws - V3.1\Tradutor Ws - V3.1.csproj", "{1E745F4B-A7B3-4892-9AD7-C6375B95BC71}"
+EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tradutor Ws - V2.1", "Tradutor Ws - V2.1\Tradutor Ws - V2.1.csproj", "{5B075FE9-1C40-4750-A196-95AFAD6547F8}"
 EndProject
 Global
@@ -11,6 +13,10 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1E745F4B-A7B3-4892-9AD7-C6375B95BC71}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1E745F4B-A7B3-4892-9AD7-C6375B95BC71}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1E745F4B-A7B3-4892-9AD7-C6375B95BC71}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1E745F4B-A7B3-4892-9AD7-C6375B95BC71}.Release|Any CPU.Build.0 = Release|Any CPU
 		{5B075FE9-1C40-4750-A196-95AFAD6547F8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{5B075FE9-1C40-4750-A196-95AFAD6547F8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5B075FE9-1C40-4750-A196-95AFAD6547F8}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -20,6 +26,6 @@ Global
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {B90062CE-E1CE-491A-9A99-27C24144915D}
+		SolutionGuid = {529F0B05-C868-4FCA-8690-79FB4769FF6D}
 	EndGlobalSection
 EndGlobal
