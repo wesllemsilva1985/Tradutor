@@ -1,0 +1,30 @@
+C:\Users\wesll\source\repos\Tradutor Ws - V2.1\Tradutor Ws - V2.1\bin\Debug\Tradutor Ws - V2.1.exe.config
+C:\Users\wesll\source\repos\Tradutor Ws - V2.1\Tradutor Ws - V2.1\bin\Debug\Tradutor Ws - V2.1.exe
+C:\Users\wesll\source\repos\Tradutor Ws - V2.1\Tradutor Ws - V2.1\bin\Debug\Tradutor Ws - V2.1.pdb
+C:\Users\wesll\source\repos\Tradutor Ws - V2.1\Tradutor Ws - V2.1\obj\Debug\MainWindow.g.cs
+C:\Users\wesll\source\repos\Tradutor Ws - V2.1\Tradutor Ws - V2.1\obj\Debug\App.g.cs
+C:\Users\wesll\source\repos\Tradutor Ws - V2.1\Tradutor Ws - V2.1\obj\Debug\Tradutor Ws - V2.1_MarkupCompile.cache
+C:\Users\wesll\source\repos\Tradutor Ws - V2.1\Tradutor Ws - V2.1\obj\Debug\Tradutor Ws - V2.1_MarkupCompile.lref
+C:\Users\wesll\source\repos\Tradutor Ws - V2.1\Tradutor Ws - V2.1\obj\Debug\MainWindow.baml
+C:\Users\wesll\source\repos\Tradutor Ws - V2.1\Tradutor Ws - V2.1\obj\Debug\Tradutor Ws - V2.1.g.resources
+C:\Users\wesll\source\repos\Tradutor Ws - V2.1\Tradutor Ws - V2.1\obj\Debug\Tradutor_Ws___V2._1.Properties.Resources.resources
+C:\Users\wesll\source\repos\Tradutor Ws - V2.1\Tradutor Ws - V2.1\obj\Debug\Tradutor Ws - V2.1.csproj.GenerateResource.cache
+C:\Users\wesll\source\repos\Tradutor Ws - V2.1\Tradutor Ws - V2.1\obj\Debug\Tradutor Ws - V2.1.csproj.CoreCompileInputs.cache
+C:\Users\wesll\source\repos\Tradutor Ws - V2.1\Tradutor Ws - V2.1\obj\Debug\Tradutor Ws - V2.1.exe
+C:\Users\wesll\source\repos\Tradutor Ws - V2.1\Tradutor Ws - V2.1\obj\Debug\Tradutor Ws - V2.1.pdb
+C:\Users\wesll\source\repos\Tradutor Ws - V2.1\Tradutor Ws - V2.1\bin\Debug\RestSharp.dll
+C:\Users\wesll\source\repos\Tradutor Ws - V2.1\Tradutor Ws - V2.1\bin\Debug\RestSharp.xml
+C:\Users\wesll\source\repos\Tradutor Ws - V2.1\Tradutor Ws - V2.1\obj\Debug\Tradutor Ws - V2.1.csproj.CopyComplete
+C:\Users\wesll\source\repos\Tradutor Ws - V2.1\Tradutor Ws - V2.1\bin\Debug\Nancy.dll
+C:\Users\wesll\source\repos\Tradutor Ws - V2.1\Tradutor Ws - V2.1\bin\Debug\Vse.Web.Serialization.dll
+C:\Users\wesll\source\repos\Tradutor Ws - V2.1\Tradutor Ws - V2.1\bin\Debug\Nancy.xml
+C:\Users\wesll\source\repos\Tradutor Ws - V2.1\Tradutor Ws - V2.1\bin\Debug\Vse.Web.Serialization.pdb
+C:\Users\wesll\source\repos\Tradutor Ws - V2.1\Tradutor Ws - V2.1\bin\Debug\Newtonsoft.Json.dll
+C:\Users\wesll\source\repos\Tradutor Ws - V2.1\Tradutor Ws - V2.1\bin\Debug\Newtonsoft.Json.xml
+C:\Users\wesll\source\repos\Tradutor Ws - V2.1\Tradutor Ws - V2.1\obj\Debug\MsTrad.g.cs
+C:\Users\wesll\source\repos\Tradutor Ws - V2.1\Tradutor Ws - V2.1\obj\Debug\MsTrad.baml
+C:\Users\wesll\source\repos\Tradutor Ws - V2.1\Tradutor Ws - V2.1\bin\Debug\Json.Net.dll
+C:\Users\wesll\source\repos\Tradutor Ws - V2.1\Tradutor Ws - V2.1\obj\Debug\GoogleTrad.g.cs
+C:\Users\wesll\source\repos\Tradutor Ws - V2.1\Tradutor Ws - V2.1\obj\Debug\GoogleTrad.baml
+C:\Users\wesll\source\repos\Tradutor Ws - V2.1\Tradutor Ws - V2.1\bin\Debug\Newtonsoft.Json.Schema.dll
+C:\Users\wesll\source\repos\Tradutor Ws - V2.1\Tradutor Ws - V2.1\bin\Debug\Newtonsoft.Json.Schema.xml
