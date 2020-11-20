@@ -14,19 +14,15 @@ namespace Tradutor_Ws___V3._1
     {
         public FrmMain()
         {
-            InitializeComponent();
-
-            
+            InitializeComponent();            
         }
 
-        private void button1_Click(object sender, EventArgs e)
-        {
-            
-
-        }
-
+        private void button1_Click(object sender, EventArgs e) { }
         
+        private void CboFrom_SelectedIndexChanged(object sender, EventArgs e) { }
 
+        private void CboTo_SelectedIndexChanged(object sender, EventArgs e) { }
+        
         private void button2_Click(object sender, EventArgs e)
         {
             ClassDetectaIdioma.DetectaIdioma();
@@ -34,22 +30,10 @@ namespace Tradutor_Ws___V3._1
             FrmL.Show();
         }
 
-        private void CboFrom_SelectedIndexChanged(object sender, EventArgs e)
-        {
-            
-        }
-
-        private void CboTo_SelectedIndexChanged(object sender, EventArgs e)
-        {
-            
-        }
-
         private void BtTraduzir_Click(object sender, EventArgs e)
         {
-            //Verifica se algum idioma de saida foi escolhinho no combo
-            int C = CboTo.Text.Length;
-
-            if (C == 0)
+            //Verifica se algum idioma de saida foi escolhinho no combo           
+            if (string.IsNullOrEmpty(CboTo.Text))
             {
                 MessageBox.Show("Informe o idioma para o qual quer traduzir");
             }
@@ -62,48 +46,21 @@ namespace Tradutor_Ws___V3._1
 
         private void TmrCheckCbo1_Tick(object sender, EventArgs e)
         {
-            int C = CboFrom.Text.Length;
-
-            if (C == 0)
-            {
-                BtTraduzir.Enabled = false;
-            }
-            else
-            {
-                BtTraduzir.Enabled = true;
-            }
+            BtTraduzir.Enabled = string.IsNullOrEmpty(CboFrom.Text) ? false : true;
         }
 
         private void TextFrom_TextChanged(object sender, EventArgs e)
-
-        {
-           
-            int C = TextFrom.TextLength;
-            int Ccf = C;
-            LblCountCharTf.Text = Ccf + " de 200";
-            if (C > 200)
-            {
-                MessageBox.Show("Limite de caractere excedido.");
-            }
-            if (C == 10)
-            {
-                ClassDetectaIdioma.DetectaIdioma();
-                return;
-            }
-            if (C == 0)
-            {
-                CboFrom.Text = "";
-            }
+        {           
+            LblCountCharTf.Text = TextFrom.Text.Length + " de 200";
+            if (TextFrom.Text.Length > 200) { MessageBox.Show("Limite de caractere excedido."); }
+            if (TextFrom.Text.Length == 10) { ClassDetectaIdioma.DetectaIdioma(); return; }
+            if (string.IsNullOrEmpty(TextFrom.Text)) { CboFrom.Text = string.Empty; }
         }
 
         private void timer1_Tick(object sender, EventArgs e)
-        {
-           
-            TmrPreenchBox.Enabled = false;
-           
+        {           
+            TmrPreenchBox.Enabled = false;           
             ClassIdiomas.SelecionaIdioma();
-        }
-
-      
+        }      
     }
 }
