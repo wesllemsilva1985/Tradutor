@@ -111,7 +111,6 @@
       <DependentUpon>App.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="Dicionario.cs" />
     <Compile Include="GoogleTrad.xaml.cs">
       <DependentUpon>GoogleTrad.xaml</DependentUpon>
     </Compile>

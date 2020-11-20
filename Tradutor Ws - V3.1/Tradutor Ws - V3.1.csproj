@@ -52,6 +52,12 @@
     <Compile Include="ClassDetectaIdioma.cs" />
     <Compile Include="ClassIdiomas.cs" />
     <Compile Include="ClassTraduz.cs" />
+    <Compile Include="FrmLoanding.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmLoanding.Designer.cs">
+      <DependentUpon>FrmLoanding.cs</DependentUpon>
+    </Compile>
     <Compile Include="FrmMain.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -60,6 +66,9 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="FrmLoanding.resx">
+      <DependentUpon>FrmLoanding.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="FrmMain.resx">
       <DependentUpon>FrmMain.cs</DependentUpon>
     </EmbeddedResource>
@@ -86,6 +95,9 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\loading.gif" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

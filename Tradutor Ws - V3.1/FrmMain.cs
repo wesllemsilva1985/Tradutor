@@ -30,6 +30,8 @@ namespace Tradutor_Ws___V3._1
         private void button2_Click(object sender, EventArgs e)
         {
             ClassDetectaIdioma.DetectaIdioma();
+            FrmLoanding FrmL = new FrmLoanding();
+            FrmL.Show();
         }
 
         private void CboFrom_SelectedIndexChanged(object sender, EventArgs e)
@@ -92,7 +94,10 @@ namespace Tradutor_Ws___V3._1
         {
            
             TmrPreenchBox.Enabled = false;
+           
             ClassIdiomas.SelecionaIdioma();
         }
+
+      
     }
 }

@@ -19,6 +19,9 @@ namespace Tradutor_Ws___V3._1
 
         public static void TraduzClic()
         {
+            FrmLoanding FrmL = new FrmLoanding();
+            FrmL.Show();
+
             String Ie = Program.form1.TextIdiomaDetect.Text; //Idioma de entrada
             string Is = Program.form1.TextIdSaida.Text; //Idioma de saida
 
@@ -54,6 +57,8 @@ namespace Tradutor_Ws___V3._1
             string name = tradu.text;
 
             Program.form1.TextTo.Text = name;
+
+            FrmL.Close();
         }
     }
 }

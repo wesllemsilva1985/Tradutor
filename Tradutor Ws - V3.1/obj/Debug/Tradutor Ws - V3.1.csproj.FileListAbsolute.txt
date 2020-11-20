@@ -1,4 +1,3 @@
-C:\Users\wesll\Documents\GitHub\Tradutor\Tradutor Ws - V3.1\obj\Debug\Tradutor Ws - V3.1.csprojAssemblyReference.cache
 C:\Users\wesll\Documents\GitHub\Tradutor\Tradutor Ws - V3.1\obj\Debug\Tradutor_Ws___V3._1.FrmMain.resources
 C:\Users\wesll\Documents\GitHub\Tradutor\Tradutor Ws - V3.1\obj\Debug\Tradutor_Ws___V3._1.Properties.Resources.resources
 C:\Users\wesll\Documents\GitHub\Tradutor\Tradutor Ws - V3.1\obj\Debug\Tradutor Ws - V3.1.csproj.GenerateResource.cache
@@ -11,3 +10,4 @@ C:\Users\wesll\Documents\GitHub\Tradutor\Tradutor Ws - V3.1\bin\Debug\Newtonsoft
 C:\Users\wesll\Documents\GitHub\Tradutor\Tradutor Ws - V3.1\obj\Debug\Tradutor Ws - V3.1.csproj.CopyComplete
 C:\Users\wesll\Documents\GitHub\Tradutor\Tradutor Ws - V3.1\obj\Debug\Tradutor Ws - V3.1.exe
 C:\Users\wesll\Documents\GitHub\Tradutor\Tradutor Ws - V3.1\obj\Debug\Tradutor Ws - V3.1.pdb
+C:\Users\wesll\Documents\GitHub\Tradutor\Tradutor Ws - V3.1\obj\Debug\Tradutor_Ws___V3._1.FrmLoanding.resources

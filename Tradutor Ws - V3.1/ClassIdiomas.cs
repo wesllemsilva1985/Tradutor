@@ -8,6 +8,7 @@ using Newtonsoft.Json;
 using System.IO;
 using System.Windows.Forms;
 using System.ComponentModel;
+using System.Threading;
 
 namespace Tradutor_Ws___V3._1
 {
@@ -57,6 +58,9 @@ namespace Tradutor_Ws___V3._1
         //Retorna somente o nome e codigo do idioma
         public static void SelecionaIdioma()
         {
+            FrmLoanding FrmL = new FrmLoanding();
+            FrmL.Show();
+
             String Js = Idiomas(); /*Arquivo Json deserializado do metodo a cima*/
 
             //Cria Lista
@@ -127,6 +131,9 @@ namespace Tradutor_Ws___V3._1
                             PreencheCombo(Valor);
                           
                         }
+
+
+                        FrmL.Close();
                         return;
                     }
 
@@ -144,6 +151,7 @@ namespace Tradutor_Ws___V3._1
                                
                             }
                         }
+                        FrmL.Close();
                         return;
                     }
                                        
@@ -158,7 +166,7 @@ namespace Tradutor_Ws___V3._1
                             if (Program.form1.CboTo.Text == It.Nome)
                             {
 
-
+                                FrmL.Close();
                                 Program.form1.TextIdSaida.Text = It.Cod;
                                 ClassTraduz.TraduzClic();
 
@@ -169,7 +177,7 @@ namespace Tradutor_Ws___V3._1
 
                 }
             }
-
+            
         }
 
         //Preenche os Combos com os nomes dos idiomas
