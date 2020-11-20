@@ -45,22 +45,27 @@ namespace Tradutor_Ws___V3._1
             this.TmrPreenchBox = new System.Windows.Forms.Timer(this.components);
             this.LblCountCharTf = new System.Windows.Forms.Label();
             this.panel1 = new System.Windows.Forms.Panel();
+            this.label1 = new System.Windows.Forms.Label();
+            this.label2 = new System.Windows.Forms.Label();
+            this.label3 = new System.Windows.Forms.Label();
+            this.label4 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // CboFrom
             // 
             this.CboFrom.FormattingEnabled = true;
-            this.CboFrom.Location = new System.Drawing.Point(12, 21);
+            this.CboFrom.Location = new System.Drawing.Point(10, 25);
             this.CboFrom.Name = "CboFrom";
             this.CboFrom.Size = new System.Drawing.Size(159, 21);
             this.CboFrom.Sorted = true;
             this.CboFrom.TabIndex = 0;
+            this.CboFrom.TabStop = false;
             this.CboFrom.SelectedIndexChanged += new System.EventHandler(this.CboFrom_SelectedIndexChanged);
             // 
             // TextFrom
             // 
             this.TextFrom.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.TextFrom.Location = new System.Drawing.Point(15, 49);
+            this.TextFrom.Location = new System.Drawing.Point(13, 68);
             this.TextFrom.Multiline = true;
             this.TextFrom.Name = "TextFrom";
             this.TextFrom.Size = new System.Drawing.Size(332, 52);
@@ -81,11 +86,12 @@ namespace Tradutor_Ws___V3._1
             // CboTo
             // 
             this.CboTo.FormattingEnabled = true;
-            this.CboTo.Location = new System.Drawing.Point(191, 21);
+            this.CboTo.Location = new System.Drawing.Point(189, 25);
             this.CboTo.Name = "CboTo";
             this.CboTo.Size = new System.Drawing.Size(159, 21);
             this.CboTo.Sorted = true;
             this.CboTo.TabIndex = 3;
+            this.CboTo.TabStop = false;
             this.CboTo.SelectedIndexChanged += new System.EventHandler(this.CboTo_SelectedIndexChanged);
             // 
             // TextIdiomaDetect
@@ -121,25 +127,26 @@ namespace Tradutor_Ws___V3._1
             // LblIdiFrom
             // 
             this.LblIdiFrom.AutoSize = true;
-            this.LblIdiFrom.Location = new System.Drawing.Point(12, 207);
+            this.LblIdiFrom.Location = new System.Drawing.Point(10, 242);
             this.LblIdiFrom.Name = "LblIdiFrom";
             this.LblIdiFrom.Size = new System.Drawing.Size(0, 13);
             this.LblIdiFrom.TabIndex = 7;
             // 
             // TextTo
             // 
-            this.TextTo.Location = new System.Drawing.Point(12, 125);
+            this.TextTo.Location = new System.Drawing.Point(10, 160);
             this.TextTo.Multiline = true;
             this.TextTo.Name = "TextTo";
             this.TextTo.Size = new System.Drawing.Size(338, 71);
             this.TextTo.TabIndex = 8;
+            this.TextTo.TabStop = false;
             // 
             // BtTraduzir
             // 
-            this.BtTraduzir.Location = new System.Drawing.Point(275, 202);
+            this.BtTraduzir.Location = new System.Drawing.Point(273, 237);
             this.BtTraduzir.Name = "BtTraduzir";
             this.BtTraduzir.Size = new System.Drawing.Size(75, 23);
-            this.BtTraduzir.TabIndex = 9;
+            this.BtTraduzir.TabIndex = 2;
             this.BtTraduzir.Text = "Traduzir";
             this.BtTraduzir.UseVisualStyleBackColor = true;
             this.BtTraduzir.Click += new System.EventHandler(this.BtTraduzir_Click);
@@ -165,7 +172,7 @@ namespace Tradutor_Ws___V3._1
             // 
             // LblCountCharTf
             // 
-            this.LblCountCharTf.Location = new System.Drawing.Point(13, 102);
+            this.LblCountCharTf.Location = new System.Drawing.Point(11, 121);
             this.LblCountCharTf.Name = "LblCountCharTf";
             this.LblCountCharTf.Size = new System.Drawing.Size(336, 15);
             this.LblCountCharTf.TabIndex = 11;
@@ -175,17 +182,57 @@ namespace Tradutor_Ws___V3._1
             // panel1
             // 
             this.panel1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.panel1.Location = new System.Drawing.Point(12, 47);
+            this.panel1.Location = new System.Drawing.Point(10, 66);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(338, 72);
             this.panel1.TabIndex = 12;
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Location = new System.Drawing.Point(10, 8);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(103, 13);
+            this.label1.TabIndex = 13;
+            this.label1.Text = "Traduzir do (Idioma):";
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Location = new System.Drawing.Point(186, 8);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(112, 13);
+            this.label2.TabIndex = 14;
+            this.label2.Text = "Traduzir para (Idioma):";
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Location = new System.Drawing.Point(10, 50);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(317, 13);
+            this.label3.TabIndex = 15;
+            this.label3.Text = "Insira o texto à ser traduzido (Idioma detectado automaticamente):";
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Location = new System.Drawing.Point(10, 144);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(83, 13);
+            this.label4.TabIndex = 16;
+            this.label4.Text = "Texto traduzido:";
             // 
             // FrmMain
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
-            this.ClientSize = new System.Drawing.Size(369, 251);
+            this.ClientSize = new System.Drawing.Size(360, 276);
+            this.Controls.Add(this.label4);
+            this.Controls.Add(this.label3);
+            this.Controls.Add(this.label2);
+            this.Controls.Add(this.label1);
             this.Controls.Add(this.LblCountCharTf);
             this.Controls.Add(this.TextIdSaida);
             this.Controls.Add(this.BtTraduzir);
@@ -226,6 +273,10 @@ namespace Tradutor_Ws___V3._1
         private System.Windows.Forms.Timer TmrPreenchBox;
         private System.Windows.Forms.Label LblCountCharTf;
         private System.Windows.Forms.Panel panel1;
+        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.Label label4;
     }
 }
 
