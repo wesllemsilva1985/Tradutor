@@ -43,6 +43,8 @@ namespace Tradutor_Ws___V3._1
             this.TextIdSaida = new System.Windows.Forms.TextBox();
             this.TmrCheckCbo1 = new System.Windows.Forms.Timer(this.components);
             this.TmrPreenchBox = new System.Windows.Forms.Timer(this.components);
+            this.LblCountCharTf = new System.Windows.Forms.Label();
+            this.panel1 = new System.Windows.Forms.Panel();
             this.SuspendLayout();
             // 
             // CboFrom
@@ -57,10 +59,11 @@ namespace Tradutor_Ws___V3._1
             // 
             // TextFrom
             // 
-            this.TextFrom.Location = new System.Drawing.Point(12, 48);
+            this.TextFrom.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.TextFrom.Location = new System.Drawing.Point(15, 49);
             this.TextFrom.Multiline = true;
             this.TextFrom.Name = "TextFrom";
-            this.TextFrom.Size = new System.Drawing.Size(338, 71);
+            this.TextFrom.Size = new System.Drawing.Size(332, 52);
             this.TextFrom.TabIndex = 1;
             this.TextFrom.TextChanged += new System.EventHandler(this.TextFrom_TextChanged);
             // 
@@ -160,11 +163,30 @@ namespace Tradutor_Ws___V3._1
             this.TmrPreenchBox.Enabled = true;
             this.TmrPreenchBox.Tick += new System.EventHandler(this.timer1_Tick);
             // 
+            // LblCountCharTf
+            // 
+            this.LblCountCharTf.Location = new System.Drawing.Point(13, 102);
+            this.LblCountCharTf.Name = "LblCountCharTf";
+            this.LblCountCharTf.Size = new System.Drawing.Size(336, 15);
+            this.LblCountCharTf.TabIndex = 11;
+            this.LblCountCharTf.Text = "0 de 200";
+            this.LblCountCharTf.TextAlign = System.Drawing.ContentAlignment.BottomRight;
+            // 
+            // panel1
+            // 
+            this.panel1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.panel1.Location = new System.Drawing.Point(12, 47);
+            this.panel1.Name = "panel1";
+            this.panel1.Size = new System.Drawing.Size(338, 72);
+            this.panel1.TabIndex = 12;
+            // 
             // FrmMain
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(369, 251);
+            this.Controls.Add(this.LblCountCharTf);
             this.Controls.Add(this.TextIdSaida);
             this.Controls.Add(this.BtTraduzir);
             this.Controls.Add(this.TextTo);
@@ -174,8 +196,9 @@ namespace Tradutor_Ws___V3._1
             this.Controls.Add(this.TextIdiomaDetect);
             this.Controls.Add(this.CboTo);
             this.Controls.Add(this.button1);
-            this.Controls.Add(this.TextFrom);
             this.Controls.Add(this.CboFrom);
+            this.Controls.Add(this.TextFrom);
+            this.Controls.Add(this.panel1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog;
             this.MaximizeBox = false;
             this.MinimizeBox = false;
@@ -201,6 +224,8 @@ namespace Tradutor_Ws___V3._1
         public System.Windows.Forms.TextBox TextIdSaida;
         private System.Windows.Forms.Timer TmrCheckCbo1;
         private System.Windows.Forms.Timer TmrPreenchBox;
+        private System.Windows.Forms.Label LblCountCharTf;
+        private System.Windows.Forms.Panel panel1;
     }
 }
 

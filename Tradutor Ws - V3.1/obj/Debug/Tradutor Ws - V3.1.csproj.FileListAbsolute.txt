@@ -11,3 +11,4 @@ C:\Users\wesll\Documents\GitHub\Tradutor\Tradutor Ws - V3.1\obj\Debug\Tradutor W
 C:\Users\wesll\Documents\GitHub\Tradutor\Tradutor Ws - V3.1\obj\Debug\Tradutor Ws - V3.1.exe
 C:\Users\wesll\Documents\GitHub\Tradutor\Tradutor Ws - V3.1\obj\Debug\Tradutor Ws - V3.1.pdb
 C:\Users\wesll\Documents\GitHub\Tradutor\Tradutor Ws - V3.1\obj\Debug\Tradutor_Ws___V3._1.FrmLoanding.resources
+C:\Users\wesll\Documents\GitHub\Tradutor\Tradutor Ws - V3.1\obj\Debug\Tradutor Ws - V3.1.csprojAssemblyReference.cache

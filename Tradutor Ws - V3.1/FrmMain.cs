@@ -77,8 +77,14 @@ namespace Tradutor_Ws___V3._1
         private void TextFrom_TextChanged(object sender, EventArgs e)
 
         {
+           
             int C = TextFrom.TextLength;
-
+            int Ccf = C;
+            LblCountCharTf.Text = Ccf + " de 200";
+            if (C > 200)
+            {
+                MessageBox.Show("Limite de caractere excedido.");
+            }
             if (C == 10)
             {
                 ClassDetectaIdioma.DetectaIdioma();
