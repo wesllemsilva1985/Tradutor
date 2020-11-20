@@ -11,24 +11,27 @@ using System.ComponentModel;
 
 namespace Tradutor_Ws___V3._1
 {
-    class ClassTraduz
+    public class ClassTraduz
     {
+        public static TextIdiomaDetect { get; set; }
+        public static TextIdSaida { get; set; }
+        
         private static readonly string subscriptionKey = "b38bee5190mshb800f582c906e34p1004efjsn1d9fef204f63";
         private static readonly string endpoint = "https://microsoft-translator-text.p.rapidapi.com/";
         private static readonly string location = "AWS - ap-southeast-1";
 
-        public static void TraduzClic()
+        public static void TraduzClic(string ie, string is)
         {
             FrmLoanding FrmL = new FrmLoanding();
             FrmL.Show();
 
-            String Ie = Program.form1.TextIdiomaDetect.Text; //Idioma de entrada
-            string Is = Program.form1.TextIdSaida.Text; //Idioma de saida
+            var Ie = Program.form1.TextIdiomaDetect.Text; //Idioma de entrada
+            var Is = Program.form1.TextIdSaida.Text; //Idioma de saida
 
-            string route = "translate?to=" + Is + "&api-version=3.0&from=" + Ie + "&profanityAction=NoAction&textType=plain";
+            var route = "translate?to=" + Is + "&api-version=3.0&from=" + Ie + "&profanityAction=NoAction&textType=plain";
 
-            string textToTranslate = Program.form1.TextFrom.Text;
-            object[] body = new object[] { new { Text = textToTranslate } };
+            var textToTranslate = Program.form1.TextFrom.Text;
+            var body = new object[] { new { Text = textToTranslate } };
             var requestBody = JsonConvert.SerializeObject(body);
             var client = new HttpClient();
             var request = new HttpRequestMessage();
