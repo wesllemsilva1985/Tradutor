@@ -8,8 +8,6 @@ namespace Tradutor_Ws___V3._1
 {
     static class Program
     {
-
-        public static FrmMain form1; // = new Form1();
         /// <summary>
         /// Ponto de entrada principal para o aplicativo.
         /// </summary>
@@ -18,8 +16,7 @@ namespace Tradutor_Ws___V3._1
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(form1 = new FrmMain());
-        }
-       
+            Application.Run(new FrmMain());
+        }       
     }
 }
