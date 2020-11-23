@@ -13,9 +13,9 @@ namespace Tradutor_Ws___V3._1
 {
     public class ClassTraduz
     {        
-        private static readonly string subscriptionKey = "b38bee5190mshb800f582c906e34p1004efjsn1d9fef204f63";
-        private static readonly string endpoint = "https://microsoft-translator-text.p.rapidapi.com/";
-        private static readonly string location = "AWS - ap-southeast-1";
+        private const string subscriptionKey = "b38bee5190mshb800f582c906e34p1004efjsn1d9fef204f63";
+        private const string endpoint = "https://microsoft-translator-text.p.rapidapi.com/";
+        private const string location = "AWS - ap-southeast-1";
         
         // ie = idioma entrada (from), is = idioma saida (to), te = texto entrada (from)
         public static TradutorSaida TraduzClic(string ie, string is, string te)
@@ -40,12 +40,8 @@ namespace Tradutor_Ws___V3._1
             string actualResponse = thing.Content.ReadAsStringAsync().Result;
             
             var Saida = JsonConvert.DeserializeObject(actualResponse);
-            string S = Saida.ToString();
-            S = S.Remove(0, 48);
-            S = S.Remove(S.Length - 23);
-            S = S.Replace("\"", "'");
 
-            string json = @"{" + S + "}";
+            string json = @"{" + Saida.ToString().Remove(0, 48).Remove(S.Length - 23).Replace("\"", "'") + "}";
 
             return JsonConvert.DeserializeObject<TradutorSaida>(json);
 
